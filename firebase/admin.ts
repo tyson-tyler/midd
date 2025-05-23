@@ -9,9 +9,10 @@ function initFirebaseAdmin() {
   if (!apps.length) {
     initializeApp({
       credential: cert({
-        projectId: "your-project-id",
+        projectId: "nterv-f91eb",
         clientEmail:
-          "your-service-account-email@your-project-id.iam.gserviceaccount.com",
+          "firebase-adminsdk-fbsvc@nterv-f91eb.iam.gserviceaccount.com",
+
         privateKey: `-----BEGIN PRIVATE KEY-----
 MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDUFBkggenz9Ofr
 Rqp+9YRY1BzDbnobizuHtb9nuO6pIid0ifXaBsNZXnQ4ymbdxPPM+5NriKVcguth
